@@ -1,0 +1,205 @@
+#productDashboard {
+  background: #fff;
+}
+
+#productDashboard > article {
+  display: flex;
+  width: 100%;
+}
+.sidebar {
+  background: #091e93;
+  color: #fff;
+  flex-basis: 20%;
+  height: 100vh;
+}
+
+.mainContainer {
+  padding: 10px;
+  background-color: #fff;
+  flex-basis: 80%;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li a {
+  background: #0b1a70;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #606f8fc7;
+  transition: ease all 0.7s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #fff;
+  color: #091e93;
+  border-bottom: 1px solid #091e93;
+}
+
+.sidebar ul li .active {
+  background-color: #fff !important;
+  color: #091e93 !important;
+  border-bottom: 1px solid #091e93 !important;
+}
+
+.container {
+  background: #fefefe;
+}
+
+form {
+  background: #eeeeee5c;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.formGroup {
+  flex-basis: 32%;
+}
+.formControl,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0;
+}
+#textArea {
+  flex-basis: 100%;
+}
+
+.formGroup label {
+  width: 100%;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+#form h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  color: #091e93;
+}
+
+#form button {
+  background: #091e93;
+  color: #fff;
+  border: 1px solid #091e93;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#form button:hover {
+  background-color: #fff;
+  border: 1px solid #091e93;
+  color: #091e93;
+}
+
+.mainProducts {
+  background: #fff;
+}
+.listProducts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.listProducts > div {
+  flex-basis: 24%;
+  min-height: 250px;
+  background: #efefef6b;
+  padding: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+.listProducts > div img {
+  width: 100%;
+}
+
+.listProducts > div h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: #091e93;
+}
+
+.listProducts > div p {
+  color: #444;
+  font-size: 14px;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.mainProducts h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 14px 7px;
+  font-weight: bold;
+  color: #3f51b5;
+}
+
+.link a {
+  width: 100%;
+  display: block;
+  background: #3f51b5;
+  padding: 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+}
+.link a:hover {
+  background-color: #fff;
+  color: #091e93;
+  border: 1px solid #091e93;
+}
+.mainProducts footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  background: #fff;
+}
+
+.product h1 {
+  font-size: 20px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10xp;
+}
+.product aside {
+  display: flex;
+  display: flex;
+  gap: 40px;
+  margin: 30px 10px;
+}
+
+.product aside h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #091e93;
+}
+.product aside p {
+  font-size: 15px;
+  color: #444;
+}
